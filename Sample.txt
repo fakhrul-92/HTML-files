@@ -1,0 +1,17 @@
+<html>
+   <head>
+	<title>
+		Enter the title
+</title>
+   </head>
+	<body>
+		<u><h1>Good Luck <br>
+		Start writing your code!</h1></u>
+This is sample text for you and SmartArt graphics change to match your new theme.<br><br>
+
+When you re you want to add a row or a column, and then click the plus sign.<br><br>
+
+When you click Online Video, and sidebar.
+
+	</body>
+</html>

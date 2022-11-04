@@ -1,0 +1,60 @@
+<!DOCKTYPE html>
+<html>
+   <head>
+	<title>
+		32 lesson
+	</title>
+   </head>
+<body background= "samp.png" >
+<hr color="white">
+<p style="text-align:center; color: #992999; font-size:20px"> <strong>
+ HOME &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMENUE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspABOUT US &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOUR SERVICES &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBOOK A TICKET </strong> </p>
+<hr style="color: white; height:10px">
+<h2><marquee direction="left" bgcolor="#802070" style="color:white" <i > 
+Crating Styling a TABLE for a webpage </i> </marquee> </h2>
+
+<dt> <strong> <b> <u> Before you start </u> </b> </strong> </dt>
+	<dd> -We have 3table tags: <ol type="i"> 
+		 <li> th- table head | Describes names of columns </li> 
+		 <li> td- table data | Points to a cell & its data</li> 
+		 <li> tr- table row | Refers to a certain whole row of the table </li> </ol> </dd>
+	<dd> -Tag-1:  style:
+		 <br> &nbsp&nbsp&nbsp&nbsp&nbsp <b> text-align: </b> center/ left (by default), right. border-color:color name<br>
+		 &nbsp&nbsp&nbsp&nbsp&nbsp <b> border-color: </b> color name. You can use 4 different color clockwise <br>
+		 &nbsp&nbsp&nbsp&nbsp&nbsp <b> color: </b> color name for your text. <br>
+		 &nbsp&nbsp&nbsp&nbsp&nbsp <b> border-style: </b>  style for border can be-  dottet/ dashed/ solid/ double/ none/ hidden/ groove/ ridge/ inset/outset/ initial <br>
+		 &nbsp&nbsp&nbsp&nbsp&nbsp <b> background-color: </b> set the backgroud color or color code <br/>
+		 &nbsp&nbsp&nbsp&nbsp&nbsp <b> background: </b> set the backgroud image for the table </dd>
+<i style="color:red"> Use all these attributes inside the double qoute of style and remembe, separator is semicolon (;) this style attribute belongs to the table tag. <strong> <u> YOU CAN SET BG-IMAGE FOR DEDICATED CELL OR ROW!! </u> </strong> </i>
+
+<br> <br> Examples-
+<table border="5">
+<caption> Ex-1 | Student data </caption> <tr> <th> First Name</th> <th> Family Name </th> <th> Age </th> <th> Home Country </th> <th> Capital City </th> <th> Nearest Sea </th>  </tr> 	<tr> <td> Alal</td> <td> uddin </td> <td> 25 </td> <td> Azerbaijan </td> <td> Baku </td> <td> Caspian Sea </td></tr>	 	<tr> <td> kamal </td> <td> uddin </td> <td> 30 </td> <td> Bulgaria </td> <td> Sofia </td> <td> Black Sea </td> </tr>
+</table>
+<table border="2" style="text-align: center">
+<caption> Ex-2 | Text to the centre </caption> <tr> <th> First Name</th> <th> Family Name </th> <th> Age </th> <th> Home Country </th> <th> Capital City </th> <th> Nearest Sea </th>  </tr> 		<tr> <td> Alal</td> <td> uddin </td> <td> 25 </td> <td> Azerbaijan </td> <td> Baku </td> <td> Caspian Sea </td></tr>	 	<tr> <td> kamal </td> <td> uddin </td> <td> 30 </td> <td> Bulgaria </td> <td> Sofia </td> <td> Black Sea </td> </tr>
+</table>
+<table border="8" style="text-align: right; border-color:red; border-style:ridge" >
+<caption> Ex-3 | With one border-color; ridge border </caption> <tr> <th> First Name</th> <th> Family Name </th> <th> Age </th> <th> Home Country </th> <th> Capital City </th> <th> Nearest Sea </th>  </tr> 	<tr> <td> Alal</td> <td> uddin </td> <td> 25 </td> <td> Azerbaijan </td> <td> Baku </td> <td> Caspian Sea </td></tr>	 	<tr> <td> kamal </td> <td> uddin </td> <td> 30 </td> <td> Bulgaria </td> <td> Sofia </td> <td> Black Sea </td> </tr>
+</table>
+<table border="5" style="text-align: right; border-color:red blue; border-style:double" >
+<caption> Ex-4 | With two border-color ; double border </caption> <tr> <th> First Name</th> <th> Family Name </th> <th> Age </th> <th> Home Country </th> <th> Capital City </th> <th> Nearest Sea </th>  </tr> 	<tr> <td> Alal</td> <td> uddin </td> <td> 25 </td> <td> Azerbaijan </td> <td> Baku </td> <td> Caspian Sea </td></tr>	 	<tr> <td> kamal </td> <td> uddin </td> <td> 30 </td> <td> Bulgaria </td> <td> Sofia </td> <td> Black Sea </td> </tr>
+</table>
+<table border="5" style="text-align: right; border-color:red blue yellow; border-style:initail ">
+<caption> Ex-5 | With three border-color </caption> <tr> <th> First Name</th> <th> Family Name </th> <th> Age </th> <th> Home Country </th> <th> Capital City </th> <th> Nearest Sea </th>  </tr> 	<tr> <td> Alal</td> <td> uddin </td> <td> 25 </td> <td> Azerbaijan </td> <td> Baku </td> <td> Caspian Sea </td></tr>	 	<tr> <td> kamal </td> <td> uddin </td> <td> 30 </td> <td> Bulgaria </td> <td> Sofia </td> <td> Black Sea </td> </tr>
+</table>
+<table border="5" style="text-align: center; border-color:red blue; border-style:dashed; background-color: #48C9B0" >
+<caption> Ex-6 | With center align, 2 dashed border and <mark> background color </mark> </caption> <tr> <th> First Name</th> <th> Family Name </th> <th> Age </th> <th> Home Country </th> <th> Capital City </th> <th> Nearest Sea </th>  </tr> 	<tr> <td> Alal</td> <td> uddin </td> <td> 25 </td> <td> Azerbaijan <td> Baku </td> </td> <td> Caspian Sea </td></tr>	 	<tr> <td> kamal </td> <td> uddin </td> <td> 30 </td> <td> Bulgaria </td> <td> Sofia </td> <td> Black Sea </td> </tr>
+</table>
+<table border="5" style="color:yellow; text-align: center; border-color:red blue; border-style:dashed;" background="pht-tech-kbrd.jpg">
+<caption style="color:black" > Ex-6 | With center align, 2 dashed border and <mark> background image </mark> </caption> <tr> <th> First Name</th> <th> Family Name </th> <th> Age </th> <th> Home Country </th> <th> Capital City </th> <th> Nearest Sea </th>  </tr> 	<tr> <td> Alal</td> <td> uddin </td> <td> 25 </td> <td> Azerbaijan <td> Baku </td> </td> <td> Caspian Sea </td></tr>	 	<tr> <td> kamal </td> <td> uddin </td> <td> 30 </td> <td> Bulgaria </td> <td> Sofia </td> <td> Black Sea </td> </tr>
+</table>
+
+<hr style="color: white"> 
+<i> ** br tag doesn't work in dd listing!! & n b s p too!! </i><ol> 
+<li> </li> 
+<li> </li> 
+<li> </li> 
+</ol>
+</body>
+</html>

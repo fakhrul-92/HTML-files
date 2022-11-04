@@ -1,0 +1,54 @@
+<!DOCKTYPE html>
+<html>
+   <head>
+	<title>
+		42 Creating color-box
+	</title>
+   </head>
+<body background= "samp.png" >
+<hr color="white">
+
+<p style="text-align:center; color: #992999; font-size:20px"> <strong>
+ HOME &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMENUE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspABOUT US &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOUR SERVICES &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBOOK A TICKET </strong>
+</p>
+<hr style="color: white; height:10px">
+<p>For detsil tags, attributes and sub-attributes please check this <b > <a href="38vd form creation.docx"> document</a>  </b> attached. Good luck! </p>
+<b>Good practices:</b> Inside input/textarea tag
+<br>&nbsp&nbsp&nbsp&nbsp 1. Use <mark>name</mark> and <mark>value</mark> attribute to send collected data to the server.
+<br>&nbsp&nbsp&nbsp&nbsp 2. Define height and width of your <mark>boxes</mark>. Set margine to improve visual experience for visitors.
+<br>&nbsp&nbsp&nbsp&nbsp 3. Lebel wisely your <mark>boxes</mark>. Give instructions by <mark>placeholder</mark>
+<br><marquee style="color:red; font-size:50; margin-right:500;margin-left:200; background-color:gray"> THIS IS 42nd OF A CONTINUATION 38-50 </marquee> 
+<br> <br> Examples-
+<font color="blue" size="10" face="Chiller"> Please fill out this form first. </font> <hr> 
+<form>
+1. Typing: Name: <input type="text" style="margin-left:25px" placeholder="First Name"> <input style="margin-left:100px" type="text" placeholder="Last Name"> 
+</br> 2. Selecting from a range: Number of siblings: <input type="number" style="margin-left:25px; width:100px" placeholder="Select">
+</br> 3. Radio button: Gender:
+	 Female-<input value="Female" type="radio" style="margin-right:70px" name="Gender"> | Male- <input value="Male" type="radio" style="margin-right:70px" name="Gender">  | Prefer not to say- <input vame="Undefined" type="radio" name="Gender">
+</br> 4. Check-box: Education:
+	PSC <input type="checkbox" style="margin-right:25px" name="Education" value="PSC"> 	
+	 JSC <input type="checkbox" style="margin-right:25px" name="Education" value="JSC">
+	SSC <input type="checkbox" style="margin-right:25px" name="Education" value="SSC">
+	HSC <input type="checkbox" style="margin-right:25px" name="Education" value="HSC"> 
+	BSC <input type="checkbox" style="margin-right:25px" name="Education" value="BSC">
+	MSC <input type="checkbox" style="margin-right:25px" name="Education" value="MSC">
+ 	More <input type="text"  name="Education" placeholder="Write your qualities" >
+</br> 5. Email (box with style) and password (with specified length)
+	Email: <input tye="text" style="height:25px; width:200px; margin-right: 30px; background-color:#009090; color:yellow; border-color:red" placeholder="example@gmail.com">
+	Password: <input type="password" style="width:150; height:25; maxlength:8; background-color:yellow; border-color:red" placeholder="Enter pass">
+</br> 6. Choosing favorite color: <input type="color" style="heght:25; width:300" name="color" value="color-chosen">
+</form>
+
+
+<hr style="color:green"> 
+<i> ** Image tag has no ending part!! </i><ol> 
+<li> I tried <mark>font-tag</mark> to change the font color on very first line. It works for whole but not in between <mark>bold-tag</mark> and <mark>ahref-tag</mark>!</li> 
+<li> Attributes can't contain tags </li> 
+<li> By applying style attribute, text color, box border, maxlength, box fill can be manipulated. See example-5</li> 
+<li> Margin can be used more than one time</li> 
+<li> <font color="red">Mozilla </font> has very poor performance with <mark> time attributes</mark>. <font color="red">Chromo</font>, <font color="red">MS-edge</font> are perfect! <font color="red"> Explorer </font>is out of date!!</li> 
+<li> Inside <mark>textarea</mark>, injecting other tags are forbidden! [See <b>example-10.3</b>]</li> 
+<li> </li> 
+</ol>
+</body>
+</html>
